@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin = "8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp">
+
+
+        <ImageView android:id="@+id/kep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"/>
+
+        <TextView android:id="@+id/taborneve"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kep"
+            android:padding="8dp"
+            android:text="@string/tabornev"
+            android:textColor="?android:textColorSecondary"/>
+
+        <RatingBar
+            android:id="@+id/csillag"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taborneve"
+            android:layout_marginStart="8dp"
+            android:isIndicator="true"
+            android:numStars="5" />
+
+        <TextView android:id="@+id/subTitle"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/csillag"
+            android:padding="8dp"
+            android:text="@string/leiras"/>
+
+        <TextView android:id="@+id/ferohely"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subTitle"
+            android:padding="8dp"
+            android:text="@string/letszam"/>
+
+
+        <TextView android:id="@+id/ara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ferohely"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:textColor="@color/green"
+            android:layout_centerHorizontal="true"/>
+
+        <Button android:id="@+id/jelentkezes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ara"
+            android:text="@string/jelentkezem"
+            android:layout_centerHorizontal="true"/>
+
+        <Button android:id="@+id/jelentkezesvisszavon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jelentkezes"
+            android:text="@string/visszavon"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

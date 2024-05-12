@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Nyaritabor</string>
+    <string name="felhasznalonev">Felhasználónév</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="e_mail_cim">E-mail cím</string>
+    <string name="jelszomegerositese">Jelszó megerősítése</string>
+    <string name="megse">Mégse</string>
+    <string name="Telefonszam">Telefonszám</string>
+    <string name="taboroz">Táborozó</string>
+    <string name="taboroztato">Táboroztató</string>
+    <string name="noregisztracio">Tovább regisztáció nélkül</string>
+    <string name="googlevalbe">Bejelentkezés google fiókkal</string>
+    <string name="default_web_client_id">741094364680-9ilcibatu2u1nr111kfv9rd5dlj5q3q0.apps.googleusercontent.com</string>
+    <string name="jelentkezem">Jelentkezem a táborba</string>
+    <string name="leiras">Tábor leírása</string>
+    <string name="tabornev">Tábor neve</string>
+    <string name="beallitasok">Beállítások</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="nezet">Nézet</string>
+    <string name="taboraim">Táboraim</string>
+    <string name="kereses">Keresés</string>
+    <string name="letszam">Létszám: </string>
+    <string name="visszavon">Jelentkezés Visszavonása</string>
+    <string name="nezet1">Nézet</string>
+    <string name="uj">új</string>
+    <string name="ujtabor">Új tábor létrehozása</string>
+    <string name="tabor_neve">tábor neve:</string>
+    <string name="info">Információ</string>
+    <string name="ar">Ár</string>
+    <string name="f_r_hely">Férőhely:</string>
+    <string name="l_trehoz_s">Létrehozás</string>
+
+    <string-array name = "Taborok_neve">
+        <item>Ifjú mérnökök</item>
+        <item>Ifjú mérnökök2</item>
+        <item>Ifjú mérnökök3</item>
+        <item>Lovas tábor kezdőknek</item>
+    </string-array>
+
+    <string-array name = "Taborok_leirasa">
+        <item>Egy jó kis kalandozás a mérnökök világában kicsiknek!1</item>
+        <item>Egy jó kis kalandozás a mérnökök világában kicsiknek!2</item>
+        <item>Egy jó kis kalandozás a mérnökök világában kicsiknek!3</item>
+        <item>Gyere lovagoljunk együtt! A tábor 2014 július 1-7.</item>
+    </string-array>
+
+    <array name = "Tabor_ertekelesek">
+        <item>5</item>
+        <item>4.9</item>
+        <item>3.7</item>
+        <item>4.7</item>
+    </array>
+
+    <array name = "Tabor_kepek">
+        <item>@drawable/mernokos</item>
+        <item>@drawable/mernokos</item>
+        <item>@drawable/mernokos</item>
+        <item>@drawable/mernokos</item>
+    </array>
+
+    <array name = "Tabor_ara">
+        <item>40.000Ft</item>
+        <item>45.000Ft</item>
+        <item>59.000Ft</item>
+        <item>120.000Ft</item>
+    </array>
+
+    <array name = "Tabor_ferohely">
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>30</item>
+    </array>
+
+    <array name = "Tabor_jelentkezett">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+
+    <array name = "Tabor_jelenkezettemail">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+
+</resources>
+
